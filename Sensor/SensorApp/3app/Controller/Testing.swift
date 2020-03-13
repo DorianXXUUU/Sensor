@@ -8,13 +8,43 @@
 
 import UIKit
 
-class Testing: UIViewController {
 
+class Testing: UIViewController {
+    
+    
+    @IBOutlet weak var testButton: UIButton!
+    @IBOutlet weak var PMValues: UILabel!
+    @IBOutlet weak var LMValues: UILabel!
+    @IBOutlet weak var temperatureValue: UILabel!
+    @IBOutlet weak var humidityValues: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
     }
+    
+    @IBAction func testBegin(_ sender: Any) {
+        let PMTest = Float(arc4random()%6400)
+        PMValues.text = String(format: "%.2f", PMTest/100)
+        
+        let LMTest = Float(arc4random()%6400)
+        LMValues.text = String(format:"%.2f", LMTest/100)
+        
+        let temperatureTest = Float(arc4random()%6400)
+        temperatureValue.text = String(format:"%.2f", temperatureTest/100)
+        
+        let humidityTest = Float(arc4random()%6400)
+        humidityValues.text = String(format:"%.2f",humidityTest/100)
+        
+        dataTransfer.shareInstance.PMDataTransfer = PMValues.text ?? "none"
+        dataTransfer.shareInstance.LMDataTransfer = LMValues.text ?? "none"
+        dataTransfer.shareInstance.temperatureTransfer = temperatureValue.text ?? "none"
+        dataTransfer.shareInstance.humidityTransfer = humidityValues.text ?? "none"
+        
+    }
+    
+    
     
 
     /*

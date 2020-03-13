@@ -10,9 +10,20 @@ import UIKit
 
 class Finish: UIViewController {
 
+    @IBOutlet weak var finalPMValues: UILabel!
+    
+    @IBOutlet weak var finalLI: UILabel!
+    
+    @IBOutlet weak var finalTemperature: UILabel!
+    
+    @IBOutlet weak var finalHunidity: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        finalPMValues.text = dataTransfer.shareInstance.PMDataTransfer
+        finalLI.text = dataTransfer.shareInstance.LMDataTransfer
+        finalTemperature.text = dataTransfer.shareInstance.temperatureTransfer
+        finalHunidity.text = dataTransfer.shareInstance.humidityTransfer
         // Do any additional setup after loading the view.
     }
     

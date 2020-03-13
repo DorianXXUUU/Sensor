@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3app/Controller/Testing.swift"
+            timestampString = "605797040.8629251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Testing"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_app.Testing.testButton.getter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "3app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuanzhuan/Library/Autosave%20Information/3app/3app/Controller/Testing.swift"
+                  timestampString = "605713067.171559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_app.Testing.testButton.setter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "3app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuanzhuan/Library/Autosave%20Information/3app/3app/Controller/Testing.swift"
+                  timestampString = "605713067.178731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_app.Testing.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _app.Testing"
+                  moduleName = "3app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuanzhuan/Library/Autosave%20Information/3app/3app/Controller/Testing.swift"
+                  timestampString = "605713067.18203"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_app.Testing.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_app.Testing&gt;"
+                  moduleName = "3app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuanzhuan/Library/Autosave%20Information/3app/3app/Controller/Testing.swift"
+                  timestampString = "605713067.184702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
