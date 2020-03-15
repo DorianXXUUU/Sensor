@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0D0F4E241B9A6500357B36 /* dataTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D0F4D241B9A6500357B36 /* dataTransfer.swift */; };
 		8B95877823D8978F001B6944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B95877723D8978F001B6944 /* AppDelegate.swift */; };
 		8B95877D23D8978F001B6944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B95877B23D8978F001B6944 /* Main.storyboard */; };
 		8B95877F23D89790001B6944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B95877E23D89790001B6944 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B0D0F4D241B9A6500357B36 /* dataTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTransfer.swift; sourceTree = "<group>"; };
 		8B95877423D8978F001B6944 /* 3app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B95877723D8978F001B6944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B95877C23D8978F001B6944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		8BB7BD3723FEA05B00EBFEBB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8B0D0F4D241B9A6500357B36 /* dataTransfer.swift */,
 				8B95877723D8978F001B6944 /* AppDelegate.swift */,
 				8BB7BD3A23FEA15800EBFEBB /* Testing.swift */,
 				8BB7BD3C23FEA40D00EBFEBB /* Finish.swift */,
@@ -178,6 +181,7 @@
 				8BB7BD3F23FEA44900EBFEBB /* Result.swift in Sources */,
 				8BB7BD3B23FEA15800EBFEBB /* Testing.swift in Sources */,
 				8BF3E7AA240F825B001F4845 /* ViewController.swift in Sources */,
+				8B0D0F4E241B9A6500357B36 /* dataTransfer.swift in Sources */,
 				8BF3E7C3240F84F6001F4845 /* SignIn.swift in Sources */,
 				8B95877823D8978F001B6944 /* AppDelegate.swift in Sources */,
 				8BB7BD4123FEA47200EBFEBB /* ComfortMark.swift in Sources */,
@@ -329,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BL76Y882YD;
 				INFOPLIST_FILE = 3app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BL76Y882YD;
 				INFOPLIST_FILE = 3app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
